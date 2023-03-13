@@ -1,6 +1,21 @@
 # python-challenge
 
-Election Results Analysis
+PyBank Financial Analysis
+This Python script reads in a CSV file of financial data and performs basic analysis on the data, including calculating the total number of months, the net total amount of profits or losses, the average change in profits or losses, and the dates and amounts of the greatest increase and decrease in profits.
+
+Dependencies
+The script requires the Pandas library, which can be installed using pip.
+
+Usage
+Ensure that the Pandas library is installed.
+Download the "budget_data.csv" file and place it in the "Resources" folder.
+Open a terminal and navigate to the directory where the script is saved.
+Run the script using the following command: python main.py
+The script will output the financial analysis to the terminal and also create a file called "financial_analysis.txt" in the "Analysis" folder, which contains the same information.
+
+
+
+PyPoll Election Results Analysis
 This code analyzes the election data given in election_data.csv file and outputs the following results:
 
 Total number of votes cast.
